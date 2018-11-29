@@ -3,10 +3,6 @@
 Extents VS text editor for syntax highlighting C/C++ comment tags like a TODO, NOTE and etc.
 The extension can be found in the [Visual Studio Galery](https://marketplace.visualstudio.com/items?itemName=zloywolk.highlight-comment-tags)
 
-# Highlight Comment Tags
-
-Adding support for highlighting C/C++ comment tags like a TODO, NOTE and etc.
-
 # Supported tags
 - TODO
 - NOTE
