@@ -2,7 +2,7 @@ configuration: Release
 
 branches:
   only:
-    - v1.0
+    - master
 
 image:
   - Visual Studio 2017
@@ -12,20 +12,14 @@ install:
 
 before_build: 
   # Updates the version number in the .vsixmanifest and updates the AppVeyor build number to match
-  # - ps: Vsix-IncrementVsixVersion | Vsix-UpdateBuildVersion
+  - ps: Vsix-IncrementVsixVersion | Vsix-UpdateBuildVersion
   - cmd: nuget restore HighlightCommentTags.sln
   
 build:
   project: HighlightCommentTags.sln
-
-#build_script:
-#  cmd: >-
-#    msbuild /m /r /clp:v=m HighlightCommentTags.sln /bl /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
     
     
-#artifacts:
-#  path: msbuild.binlog
-# name: MSBuild Log
+artifacts:
+  path: bin\Release\HighlightCommentTags.vsix
+  name: HighlightCommentTags.vsix
 
-#on_failure:
-#  appveyor PushArtifact msbuild.binlog
