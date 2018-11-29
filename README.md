@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/usgs2vfcr9qyl1tn?svg=true)](https://ci.appveyor.com/project/zloywolk/highlightcommenttags)
+
 # Highlight Comment Tags
 
 Extents VS text editor for syntax highlighting C/C++ comment tags like a TODO, NOTE and etc.
