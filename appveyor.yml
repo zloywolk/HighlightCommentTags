@@ -13,6 +13,8 @@ install:
 before_build: 
   # Updates the version number in the .vsixmanifest and updates the AppVeyor build number to match
   - ps: Vsix-IncrementVsixVersion | Vsix-UpdateBuildVersion
+  - cmd: nuget restore HighlightCommentTags\HighlightCommentTags.csproj
+  - cmd: nuget restore HighlightCommentTags.sln
 
 build_script:
   cmd: >-
