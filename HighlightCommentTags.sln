@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HighlightCommentTags", "HighlightCommentTags\HighlightCommentTags.csproj", "{5CEB19E9-5B92-4B7F-AB2D-9939E61D395C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "git", "git", "{F43CA918-1FC3-4B5F-8BED-C25BAAD85B2F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CEB19E9-5B92-4B7F-AB2D-9939E61D395C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CEB19E9-5B92-4B7F-AB2D-9939E61D395C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CEB19E9-5B92-4B7F-AB2D-9939E61D395C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CEB19E9-5B92-4B7F-AB2D-9939E61D395C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CF4ED56-ECEC-4E0D-8949-1BD509CB452C}
+	EndGlobalSection
+EndGlobal
