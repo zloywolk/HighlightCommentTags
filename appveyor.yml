@@ -16,7 +16,7 @@ before_build:
   - cmd: nuget restore HighlightCommentTags.sln
   
 build:
-  - HighlightCommentTags.sln
+  project: HighlightCommentTags.sln
 
 #build_script:
 #  cmd: >-
