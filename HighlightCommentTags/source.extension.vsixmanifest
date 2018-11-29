@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="HighlightCommentTags.6d1fa4be-92d8-412b-9e1f-0a28552c5c9a" Version="1.0" Language="en-US" Publisher="Andrey A. Eroshenko" />
+        <Identity Id="HighlightCommentTags.6d1fa4be-92d8-412b-9e1f-0a28552c5c9a" Version="1.0.0.2" Language="en-US" Publisher="Andrey A. Eroshenko" />
         <DisplayName>Highlight Comment Tags</DisplayName>
         <Description xml:space="preserve">Extents VS text editor for syntax highlighting C/C++ comment tags like a TODO, NOTE and etc.</Description>
         <License>LICENSE.txt</License>
