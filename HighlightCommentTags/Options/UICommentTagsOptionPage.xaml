@@ -74,7 +74,7 @@
                                        SelectedColor="{Binding DebugForeground}"
                                        IsEnabled="{Binding ElementName=cbEnableCommentTagsHighlighting, Path=IsChecked}"/>
 
-                    <Label Content="{x:Static prop:Resources.FixedTagTitle}" Grid.Column="0" Grid.Row="4" />
+                    <Label Content="{x:Static prop:Resources.FixmeTagTitle}" Grid.Column="0" Grid.Row="4" />
                     <xceed:ColorPicker x:Name="cpFixmeTagColor" Margin="5"
                                        Grid.Column="2" Grid.Row="4" 
                                        DisplayColorAndName="True" 
